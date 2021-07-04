@@ -21,9 +21,9 @@ export function getStaticProps() {
 
 ```json
 "scripts": {
-	// xxx
+	//
   	"dev": "NODE_OPTIONS='--inspect' next dev"
-  	// xxx
+  	//
 },
 ```
 
