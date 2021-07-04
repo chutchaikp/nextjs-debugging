@@ -1,4 +1,17 @@
 
+enum UserResponse {
+  No = 0,
+  Yes = 1,
+}
+function respond(msg: UserResponse) {
+  if (msg === UserResponse.Yes) {
+    console.log('Yes')
+  }
+  console.log('No')
+}
+respond(UserResponse.Yes);
+
+
 
 const Home = (props: any) => {
 
